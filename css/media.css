@@ -1,0 +1,437 @@
+@media (max-width: 1024px){
+	.logo{
+		font-size: 34px;
+		margin-top: 25px;
+		margin-left: -15px;
+	}
+	.search input {
+		width: 72%;
+		margin-left: -18px;
+		margin-top: 8px;
+	}
+	.search button{
+		margin-top: 8px;
+	}
+	.box{
+		height: auto;
+	}
+	.box2 img{
+		margin-top: 25px;
+	}
+	.box3{
+		margin-top: 25px;
+	}
+	.box3 h4{
+		padding-top: 0px;
+		margin-top: 9px;
+		font-size: 18px;
+
+	}
+	.box3 p{
+		font-size: 18px;
+	}
+	.box3 h3{
+		font-size: 26px;
+	}
+	.bannerinfo p{
+		font-size: 21px;
+	}
+	.box4 img{
+		margin-top: 0px;
+	}
+	.servicebox{
+		width: 94%;
+	}
+	.box5 img {
+		height: 400px;
+		margin-left: 30px;
+	}
+	.box6 p{
+		font-size: 17px;
+	}
+	.box9 i{
+		font-size: 42px;
+
+	}
+	.box9 h4{
+		font-size: 26px;
+	}
+	#work button{
+		margin-left: 420px;
+	}
+	.box10 img{
+		height: 200px;
+	}
+	.box10 h6{
+		font-size: 11px;
+	}
+	.box10 h4{
+			font-size: 13px;
+	}
+	.box10 button{
+		padding: 6px;
+	}
+	.lines h2{
+		font-size: 22px;
+		margin-left: 40px;
+	}
+	.lines h4{
+		font-size: 22px;
+	}
+	.lines button{
+		padding: 14px;
+	}
+	.box11 h2{
+		font-size: 25px;
+	}
+	.box11 p{
+		font-size: 14px;
+	}
+	.box12 h2{
+		font-size: 20px;
+	}
+	.box12 p{
+		font-size: 18px;
+	}
+	.box13 h4{
+		font-size: 20px;
+	}
+	.box14 h2{
+		font-size: 20px;
+		margin-left: 15px;
+	}
+	.box14 input{
+		width: 75%;
+		margin-left: 15px;
+	}
+	.box14 p{
+		font-size: 15px;
+		margin-left: 15px;
+	}
+
+
+
+} 
+
+@media (max-width: 980px){
+	.logo{
+		margin-left: 0px;
+		margin-right: 25px;
+	}
+	#gridbox{
+		margin-top: 22px !important;
+	}
+	#gridbox2{
+		margin-top: 56px;
+	}
+	.box3{
+		margin-top: 40px;
+	}
+	.servicebox{
+		width: 98%;
+	}
+	.box6 p{
+		font-size: 18px;
+	}
+	.box9{
+		height: 270px;
+		width: 250px;
+	}
+	.box9 p{
+		font-size: 22px;
+	}
+	#work h3{
+		font-size: 50px;
+	}
+	#work h2{
+		font-size: 26px;
+	}
+	#work button{
+		margin-left: 389px;
+		padding: 24px;
+	}
+	#blog h2{
+		font-size: 25px;
+		margin-top: 32px;
+	}
+	#blog h3{
+		font-size: 40px;
+	}
+	.gridbox6{
+		margin-top: 20px;
+	}
+	.box10 h6{
+		font-size: 13px;
+		margin-left: 6px;
+	}
+	}
+
+
+	@media (max-width: 925px){
+		.logo{
+			font-size: 25px;
+			margin-top: 32px;
+		}
+		nav li a{
+			font-size: 17px;
+		}
+		.box4 img{
+			width: 100%;
+		}
+		.gridfooter{
+			grid-template-columns: auto auto;
+		}
+		footer{
+			height: auto;
+		}
+		.lines h2{
+			font-size: 19px;
+		}
+		.box10 i{
+			font-size: 12px;
+		}
+	}
+
+	@media (max-width: 800px){
+		nav{
+			display: none;
+		}
+		.box h2{
+			font-size: 17px;
+		}
+		.box p{
+			font-size: 16px;
+		}
+		.box9{
+			width: auto;
+			height: auto;
+		}
+		#work h3{
+			font-size: 40px;
+		}
+		#work button{
+			margin-left: 311px;
+			padding: 12px;	
+		}
+		#work h2{
+			margin-top: 30px;
+		}
+		.box3 h3{
+			font-size: 20px;
+		}
+		.box3 button{
+			padding: 10px;
+		}
+		.box3{
+			margin-top: 27px;
+		}
+		.box3 h2{
+			font-size: 18px;
+		}
+		.box3 h4{
+			font-size: 15px;
+		}
+		.box3 button{
+			margin-top: 15px;
+		}
+		.box6 h3{
+			font-size: 30px;
+		}
+		#blog h3{
+			font-size: 36px;
+		}
+		.box9 p{
+			font-size: 20px;
+
+		}
+		.box9 h4{
+			font-size: 23px;
+		}
+		.lines h2{
+			margin-left: 10px;
+		}
+		.lines h4{
+			font-size: 19px;
+		}
+		.lines button{
+			padding: 9px;
+		}
+		.box10 h6{
+			font-size: 10px;
+		}
+
+
+	}
+
+	@media (max-width: 768px){
+		.lines h4{
+			font-size: 13px;
+		}
+		#work h3{
+			font-size: 36px;
+		}
+        #work h2{
+        	font-size: 20px;
+        }
+        #blog h3{
+        	font-size: 30px;
+        }
+        #blog h2{
+        	font-size: 23px;
+        	margin-top: 21px;
+        }
+        .box7 i{
+        	font-size: 43px;
+        }
+        .box8 i{
+        	font-size: 45px;
+        }
+        .box6 p{
+        	font-size: 16px;
+        }
+        .lines h2{
+        	margin-left: 21px;
+        }
+        .box6 p{
+        	font-size: 12px;
+        }
+        .box6 h3{
+        	font-size: 25px;
+        }
+
+		}
+
+		@media (max-width: 712px){
+			.box4{
+				width: auto;
+				height: auto;
+			}
+			.servicebox{
+				width: 90%;
+			}
+			.box4 button{
+				padding: 6px;
+			}
+			#work button{
+				margin-left: 271px;
+			}
+			
+		}
+
+
+@media (max-width: 640px){
+	.box7 i{
+		font-size: 35px;
+	}
+	.box8 i{
+		font-size: 35px;
+
+	}
+	.box5 img{
+		height: 275px;
+	}
+	#work button{
+		margin-left: 231px;
+	}
+	.box2 img{
+		height: 350px;
+	}
+	.lines h2{
+		font-size: 12px;
+	}
+
+}
+
+    @media (max-width: 565px){
+
+    	.box2 img{
+    		margin-top: 37px;
+    	}
+    	.box3{
+    		margin-top: 36px;
+    	}
+    	.box5 img{
+    		height: 290px;
+    	}
+    	#work button{
+    		margin-left: 196px;
+    	}
+    	.lines i{
+    		font-size: 13px;
+    	}
+    	.lines button{
+    		padding: 5px;
+    		margin-left: 13px;
+    	}
+
+    }
+
+
+    @media (max-width: 480px){
+
+    	.bannerinfo h1{
+    		font-size: 31px;
+    	}
+    	.bannerinfo p{
+    		font-size: 14px;
+    	}
+    	.bannerinfo button{
+    		padding: 9px;
+    	}
+    	#gridbox{
+    		margin-top: 12px !important;
+    		grid-template-columns: auto;
+    		row-gap: 15px;
+    	}
+    	#gridbox2{
+    		margin-top: 340px;
+    		grid-template-columns: auto;
+    	}
+    	.box2 img{
+    		width: auto;
+    	}
+    	.box3 p{
+    		font-size: 14px;
+    	}
+    	.servicebox{
+    		grid-template-columns: auto;
+    	}
+    	#gridbox4{
+    		grid-template-columns: auto;
+    	}
+    	.box5 img{
+    		width: auto;
+    	}
+    	.box6 h2{
+    		margin-top: 10px;
+    	}
+    	.gridbox5{
+    		grid-template-columns: auto;
+    		row-gap: 15px;
+    		margin-top: 12px;
+    	}
+    	#work button{
+    		margin-left: 149px;
+    	}
+    	.gridbox6{
+    		grid-template-columns: auto;
+    		row-gap: 15px;
+    	}
+    	.box10 h6{
+    		font-size: 15px;
+    	}
+    	.box10 h4{
+    		font-size: 17px;	
+    	}
+    	.lines h2{
+    		font-size: 8px;
+    	}
+    	.lines h4{
+    		font-size: 10px;
+    	}
+    }
+
+
+
+
+

@@ -1,0 +1,503 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: arial;
+}
+header{
+	width: 90%;
+	height: 90px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+.logo{
+	float: left;
+	font-size: 40px;
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+nav{
+    margin-top: 20px;
+    margin-right: 45px;
+
+}
+nav li{
+	display: inline;
+}
+nav li a{
+	float: left;
+	text-decoration: none;
+	color: black;
+	line-height: 55px;
+	font-size: 20px;
+	padding: 0px 20px;
+	margin-right: 10px;
+}
+nav li a:hover{
+	background-color: green;
+	color: black;
+}
+.search{
+		margin-top: 25px;
+}
+.search input{
+	line-height: 30px;
+	border-radius: 50px 0px 0px 50px;
+	padding-left:15px;
+	font-size: 15px;
+
+	border: 1px solid grey;
+	float: left;
+}
+.search button{
+	color: white;
+	font-size: 20px;
+	line-height: 30px;
+	padding: 0px 20px;
+	border: 0px;
+	border-radius: 0px 50px 50px 0px;
+	background-color: green;
+	float: left;
+}
+
+
+.banner img{
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+.overlay{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	background-color: rgba(0, 0, 0, .4);
+	top: 90px;
+}
+.bannerinfo{
+	text-align: center;
+	color: white;
+	padding-top: 200px;
+}
+.bannerinfo h1{
+	font-size: 40px;
+}
+.bannerinfo p{
+	font-size: 25px;
+	padding-top: 15px;
+}
+.bannerinfo button{
+	padding: 15px;
+	background-color: transparent;
+	color: black;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+.bannerinfo button:hover{
+	background-color: white;
+	color: black;
+}
+#gridbox{
+	width: 90%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	column-gap: 20px;
+	margin-top: 60px !important;
+	height: 200px;
+	
+	margin: auto;
+
+
+}
+.box{
+	background-color:#ededeb;
+	padding: 15px;
+	height: 220px;
+}
+.box i{
+	font-size: 40px;
+	text-align: left;
+	margin-top: 15px;
+	color: green;
+}
+.box h2{
+	margin-top: 15px;
+	font-size: 25px;
+	text-align: left;
+}
+.box p{
+	margin-top: 15px;
+	font-size: 18px;
+	text-align: left;
+}
+#gridbox2{
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+.box2 img{
+	width: 100%;
+}
+.box3 h2{
+	color: green;
+	font-size: 20px;
+}
+.box3 h3{
+	font-size: 35px;
+	margin-top: 12px;
+}
+.box3 p{
+	font-size: 25px;
+	margin-top: 12px;
+}
+.box3 h4{
+
+	font-size: 20px;
+	margin-top: 15px;
+	padding-top: 20px;
+}
+.box3 i{
+	color: green;
+	font-size: 20px;
+
+}
+.box3 button{
+	margin-top: 20px;
+	padding: 20px;
+	background-color: green;
+	color: white;
+	border-radius: 20px;
+	border-color: green;
+
+}
+#services h2{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 20px;
+	color: green;
+}
+#services h3{
+	margin-top: 12px;
+	text-align: center;
+	font-size: 35px;
+}
+.servicebox{
+	width: 90%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	column-gap:30px;
+	margin-top:40px;
+	margin: auto;
+}
+.box4 {
+	text-align: center;
+	background-color: #ede9e8;
+	height: 400px;
+	margin-top: 13.5px;
+}
+.box4 img{
+	width: 300px;
+	height: 200px;
+	margin-top: 15px;
+}
+.box4 p{
+	margin-top: 10px;
+}
+.box4 button{
+	margin-top: 14px;
+	padding: 10px;
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+	background-color: green;
+}
+#gridbox4{
+	width: 100%;
+	margin: auto;
+	margin-top: 30px;
+	display: grid;
+	grid-template-columns: auto auto;
+	column-gap: 40px;
+}
+.box5 img{
+	width: 100%;
+}
+.box6{
+	margin-left: 20px;
+}
+.box6 h2{
+	color: green;
+}
+.box6 h3{
+	margin-top: 15px;
+	font-size: 35px;
+}
+.box6 p{
+	margin-top: 15px;
+	font-size: 20px;
+}
+.box7 i{
+	font-size: 50px;
+	margin-top: 15px;
+	color: green;
+}
+.box7 h4{
+	font-size: 20px;
+	margin-top: 15px;
+}
+.box7 h5{
+	font-size: 20px;
+	margin-top: 15px;
+}
+.box8 i{
+	font-size: 50px;
+	margin-top: 15px;
+	color: green;
+}
+.box8 h4{
+	font-size: 20px;
+	margin-top: 15px;
+}
+.box8 h5{
+	font-size: 20px;
+	margin-top: 15px;
+}
+.box7 li {
+	display: flex;
+}
+.box8 li {
+	display: flex;
+	
+}
+#work h2{  
+	font-size: 15px;
+	text-align: center;
+	color: green;
+	margin-top: 50px;
+}
+#work h3{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 30px;
+	text-align: center;
+}
+.gridbox5{
+	width: 90%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin: auto;
+	margin-top:25px;
+	column-gap: 30px;
+}
+.box9{
+	text-align: center;
+	background-color: #ebf0ec;
+	height: 200px;
+}
+.box9 i{
+	font-size: 50px;
+	margin-top: 15px;
+	color: green;
+}
+.box9 h4{
+	font-size: 30px;
+	margin-top: 15px;
+
+}
+.box9 p{
+	font-size: 20px;
+	margin-top: 15px;
+}
+#work button{
+	text-align: center;
+	padding: 15px;
+	margin-top: 20px;
+	color: white;
+	background-color: green;
+	border-radius: 20px 20px 20px 20px;
+	margin-left: 580px;
+
+}
+#work button:hover{
+	background-color: black;
+}
+#blog h2{
+	text-align: center;
+	font-size: 15px;
+	margin-top: 40px;
+}
+#blog h3{
+	text-align: center;
+	margin-top: 15px;
+	text-align: center;
+	font-size: 30px;
+	color: green;
+}
+.gridbox6{
+	width: 90%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin-top: 5px;
+	column-gap: 30px;
+
+}
+.box10{
+	margin-top: 5px;
+	background-color: #f0ebeb;
+	padding-bottom: 20px;
+
+}
+.box10 img{
+	width: 100%;
+	height: 300px;
+}
+.box10 ul{
+	display: flex;
+
+}
+.box10 li{
+	text-decoration: none;
+	display: inline;
+}
+.box10 i{
+	color: green;
+	font-size: 25px;
+	margin-top: 10px;
+	padding: 15px;
+}
+.box10 h6{
+	margin-left: 12px;
+	font-size: 15px;
+	margin-top: 0px;
+}
+.box10 h4{
+	text-align: center;
+	font-size: 20px;
+
+}
+.box10 button{
+	padding: 12px;
+	text-align: center;
+	background-color: green;
+	color: white;
+	border-radius: 20px 20px 20px 20px;
+	margin-left: 10px;
+
+}
+.banner2{
+	width: 100%;
+	margin-top: 35px;
+	height: 200px;
+	background-color: green;
+}
+.lines ul{
+	display: flex;
+
+}
+.lines li{
+	display: inline;
+	text-decoration: none;
+}
+.lines{
+	color: white;
+	line-height: 210px;
+}
+.lines h2{
+	text-align: center;
+	font-size: 40px;
+	margin-left: 15px;
+}
+.lines i{
+	margin-left: 35px;
+	font-size: 30px;
+}
+.lines h4{
+	margin-left: 10px;
+	font-size: 25px;
+}
+.lines button{
+	padding: 20px;
+	margin-left: 20px;
+	background-color: white;
+	color: black;
+	border-radius: 20px 20px 20px 20px;
+}
+footer{
+	background-color: black;
+	width: 100%;
+	height: 200px;
+}
+.gridfooter{
+	width: 90%;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	margin: auto;
+	column-gap: 20px;
+	row-gap: 30px;
+}
+.box11{
+	color: white;
+}
+.box11 h2{
+	color: green;
+	font-size: 35px;
+	margin-top: 20px;
+}
+.box11 p{
+	font-size: 20px;
+	margin-top: 25px;
+}
+.box12{
+	color: white;
+}
+.box12 h2{
+	font-size: 25px;
+	margin-top: 20px;
+}
+.box12 p{
+	color: green;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.box12 h4{
+	font-size: 20px;
+	margin-top: 15px;
+}
+.box13{
+	color: white;
+}
+.box13 li{
+	display: block;
+	text-decoration: none;
+	line-height: 25px;
+	margin-top: 5px;
+
+}
+.box13 h4{
+	margin-top: 20px;
+	font-size: 25px;
+}
+.box14{
+	color: white;
+}
+.box14 h2{
+	margin-top: 20px;
+	font-size: 25px;
+}
+.box14 input{
+	margin-top: 15px;
+	text-align: center;
+	width: 100%;
+}
+.box14 p{
+	margin-top: 15px;
+	font-size: 20px;
+}
+.box15{
+	display: flex;
+}
